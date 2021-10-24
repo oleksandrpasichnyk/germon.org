@@ -1,0 +1,170 @@
+@media (max-width: 768px) {
+  .content {
+    padding: 40% 0 0;
+  }
+}
+
+@media (max-width: 603px) {
+  #tf-works li.pull-right,
+  #tf-works li.pull-left {
+    margin-top: 10px;
+    float: none !important;
+    text-align: center;
+    display: block;
+  }
+  label {
+    float: none !important;
+  }
+  .pull-left.fnav,
+  .pull-right.fnav {
+    float: none !important;
+    text-align: center;
+  }
+
+  .hover-bg .hover-text {
+    padding: 12% 10%;
+  }
+}
+@media (max-width: 360px) {
+  .hover-bg .hover-text {
+    padding: 22% 10%;
+  }
+}
+
+/* Header section */
+
+@media (max-width: 1200px) {
+  .header-container {
+    width: auto;
+    /* width: 90vw; */
+    /* margin: 0 5vw; */
+  }
+
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    width: auto;
+    /* margin: 0 3vw; */
+  }
+
+  #tf-menu {
+    padding: 0;
+  }
+
+}
+
+/* About section */
+
+@media (max-width: 768px) {
+  .about-content {
+    padding: 60px 40px;
+    flex-direction: column;
+  }
+
+  .devices-img {
+    width: 80vw;
+    margin-right: 0;
+  }
+  .about-text {
+    margin-top: 50px;
+  }
+}
+
+/* Values section */
+
+@media (max-width: 768px) {
+  #tf-values .overlay {
+    padding: 20px 0;
+  }
+  
+  #tf-values .container {
+    width: 100vw;
+    padding: 0;
+  }
+
+  .accordion-item {
+    margin: 2px 0;
+  }
+
+  .accordion-button {
+    border-radius: 0;
+  }
+
+  .value-content{
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .value-image-container {
+    width: 100%;
+  }
+
+  .value-image-block {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .value-description {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 603px) {
+  /* .value-img-block {
+    width: 10vw;
+    height: 10vw;
+  } */
+
+  .value > h5 {
+    font-size: 0.7em;
+  }
+
+  .item-text li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+}
+
+/* Contact section */
+
+@media (max-width: 768px) {
+  #tf-contact {
+    padding: 30px 0;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .main-info-section {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .contact-form-section {
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+
+/* Home groups section */
+
+@media (max-width: 768px) {
+  #tf-groups-calendar .container {
+    padding: 0;
+  }
+
+  .map-section {
+    margin-top: 20px;
+  }
+}
+
+/* Footer section */
+
+@media (max-width: 768px) {
+  .footer-items {
+    width: 90vw;
+  }
+}

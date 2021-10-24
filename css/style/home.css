@@ -1,0 +1,47 @@
+/* Home Style */
+#tf-home{
+	background: url(../../img/home-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+
+#tf-home .overlay{
+	height: 100vh;
+}
+
+#tf-home span.lead-2{
+	font-style: italic;
+}
+
+.main-page-content{
+	position: relative;
+	padding: 40vh 0 0;
+}
+
+.main-page-content h1{
+	font-weight: 300;
+}
+
+.color{
+  font-weight: 600;
+	color: #45c8fc;
+}
+
+a.fa.fa-chevron-down {
+	padding: 13px 15px;
+	color: #fff;
+	border: 2px solid #b4b4b4;
+	border-radius: 50%;
+	font-size: 24px;
+	margin-top: 200px;
+	transition: all 0.5s;
+}
+a.fa.fa-chevron-down:hover{
+	background: #45c8fc;
+	color: #ffffff;
+	border: 2px solid #45c8fc;
+}
+
