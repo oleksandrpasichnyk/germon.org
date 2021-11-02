@@ -58,16 +58,23 @@
 
 @media (max-width: 768px) {
   .about-content {
-    padding: 60px 40px;
+    padding: 60px 30px;
     flex-direction: column;
   }
 
   .devices-img {
-    width: 80vw;
+    width: 100%;
     margin-right: 0;
   }
   .about-text {
-    margin-top: 50px;
+    margin-top: 30px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 603px) {
+  .about-content {
+    padding: 30px 10px;
   }
 }
 
@@ -126,6 +133,9 @@
   }
 }
 
+/* Gallery section */
+
+
 /* Contact section */
 
 @media (max-width: 768px) {
@@ -145,6 +155,12 @@
 
   .contact-form-section {
     margin-top: 30px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 603px) {
+  .btn-default {
     width: 100%;
   }
 }

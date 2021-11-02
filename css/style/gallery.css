@@ -18,15 +18,11 @@
 }
 #gallery li {
 	float: left;
-	margin-bottom: 15px;
+	margin: 0;
+	padding: 0 5px 10px;
 }
-#gallery a {
-	border: 3px solid #fff;
-	border-radius: 3px;
-	display: block;
-	overflow: hidden;
-	position: relative;
-	float: left;
+.img-responsive {
+	max-width: 100%;
 }
 #gallery img {
 	-webkit-transition: -webkit-transform 0.15s ease 0s;
@@ -124,4 +120,8 @@
 }
 .home #gallery {
 	padding-bottom: 80px;
+}
+
+.col-xs-6 {
+	max-width: 50%;
 }

@@ -1,7 +1,7 @@
 /* Home Style */
 #tf-home{
 	background: url(../../img/home-bg.jpg);
-	background-size: auto 100%;
+	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
