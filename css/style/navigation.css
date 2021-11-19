@@ -52,6 +52,7 @@
 .navbar-default .navbar-toggle:focus {
   background-color: #45c8fc;
   border-color: #45c8fc;
+  cursor: pointer;
 }
 
 .navbar-default .navbar-toggle:hover > .icon-bar {

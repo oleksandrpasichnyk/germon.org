@@ -58,7 +58,7 @@
 
 @media (max-width: 768px) {
   .about-content {
-    padding: 60px 30px;
+    padding: 30px 30px;
     flex-direction: column;
   }
 
@@ -74,7 +74,7 @@
 
 @media (max-width: 603px) {
   .about-content {
-    padding: 30px 10px;
+    padding: 10px 10px;
   }
 }
 

@@ -30,7 +30,8 @@
 .value-img {
 	width: 100%;
 	height: 100%;
-  transition: 0.25s ease-in-out all;
+	transition: 0.3s all ease-out;
+	filter: invert(0);
 }
 
 .value-img-block {
@@ -45,6 +46,8 @@
 	margin: 0;
 	font-size: 2.5rem;
 	text-align: left;
+	color: #111;
+	transition: 0.3s all ease-out;
 }
 
 .accordion-button {
@@ -57,19 +60,11 @@
 	transition: 0.3s all ease-out;
 }
 
-.accordion-button.collapsed {
-	background-color:#ffffff;
-}
-
-.accordion-button:hover {
-	background-color: #333;
-}
-
 .accordion-button:hover .value-title{
-	color:#ffffff;
+	color:#fff;
 }
 
-.accordion-button:hover .value-image{
+.accordion-button:hover .value-img{
 	filter: invert(1);
 }
 
@@ -106,6 +101,7 @@
 .value-image{
 	width: 40%;
 	opacity: 0.85;
+	filter: invert(1);
 }
 
 .value-description h4{
@@ -124,6 +120,7 @@
 
 #relationship-value-item .value-image-container {
 	background-image: url('../../img/values/1_relationship_bg-min.jpg');
+	background-position: bottom;
 }
 
 #glory-value-item .value-image-container {
@@ -144,4 +141,38 @@
 
 #family-value-item .value-image-container {
 	background-image: url('../../img/values/6_family_bg-min.jpg');
+}
+
+/* Hover colors */
+
+/* .accordion-button:hover {
+	background-color: #333;
+} */
+
+.accordion-button {
+	background-color: #fff;
+}
+
+#relationship-value-item .accordion-button:hover {
+	background-color: #CC3054;
+}
+
+#glory-value-item .accordion-button:hover {
+	background-color: #DFA143;
+}
+
+#church-value-item .accordion-button:hover {
+	background-color: #1E7E7A;
+}
+
+#gospel-value-item .accordion-button:hover {
+	background-color: #E1B140;
+}
+
+#serve-value-item .accordion-button:hover {
+	background-color: #1F667E;
+}
+
+#family-value-item .accordion-button:hover {
+	background-color: #1C9675;
 }
