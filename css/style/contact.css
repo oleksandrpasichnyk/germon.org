@@ -200,3 +200,7 @@ textarea {
 .social-links li.instagram a:hover {
 	color: #e1306c;
 }
+
+.ff-form .ff-powered-img {
+  visibility: hidden;
+}

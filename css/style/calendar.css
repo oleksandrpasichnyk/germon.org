@@ -23,7 +23,6 @@
 #calendar {
   height: 70vh;
   max-width: 1100px;
-  margin: 40px auto 0;
 }
 
 #groups-map-frame {
@@ -31,4 +30,60 @@
   height: 70vh;
   margin: 40px;
   margin: 0 auto;
+}
+
+
+/* FullCalendar */
+
+.table-bordered{
+  border: none;
+}
+
+.table-bordered > tbody > tr > td {
+  border: none;
+}
+
+.fc-col-header-cell-cushion {
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+.fc-event-title {
+  color: #ffffff;
+  padding-bottom: 2px;
+}
+
+.fc-daygrid-event-dot {
+  border: 2px solid #45c8fc;
+  border-radius: 2px;
+  margin: 0 3px;
+}
+
+.fc {
+  font-family: "Lato", sans-serif;
+  min-width: 500px;
+  overflow: scroll;
+}
+
+.fc-scrollgrid-section-header {
+  background-color: #ffffff;
+  color: #222222;
+}
+
+.fc .fc-col-header-cell-cushion  {
+  padding: 7px;
+}
+
+.btn-primary {
+  background-color: #45c8fc;
+  border-color: #45c8fc;
+}
+
+.fc .fc-daygrid-day-frame {
+  /* border-left: 1px solid rgba(255, 255, 255, 0.5); */
+  padding: 5px 1px;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: rgba(69, 200, 252, 0.1);
 }

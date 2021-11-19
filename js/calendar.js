@@ -1,13 +1,22 @@
 document.addEventListener('DOMContentLoaded', function() {
   var calendarEl = document.getElementById('calendar');
 
+  const { pathname } = window.location;
+  const localeName = pathname?.replace(/\/$/, "")?.split("/")?.pop();
+
+  const locales = {
+    'en': 'en',
+    'ua': 'uk',
+  }
+
   var calendar = new FullCalendar.Calendar(calendarEl, {
     themeSystem: 'bootstrap',
-    locale: 'uk',
+    locale: locales[localeName],
+    initialView: 'dayGridWeek',
     headerToolbar: {
-      left: 'prev,next',
+      left: 'today,prev,next',
       center: 'title',
-      right: 'dayGridMonth,timeGridWeek,listYear'
+      right: 'dayGridDay,dayGridWeek,dayGridMonth'
     },
 
     displayEventTime: false, // don't show the time column in list view
@@ -18,10 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
     googleCalendarApiKey: 'AIzaSyDSBCaOhrRViBVidxG2Mu7bkCGBRmerMGI',
 
     // US Holidays
-    // events: '1hh41n3ao1l6n8lsnircltnij4@group.calendar.google.com',
     events: {
       googleCalendarId: 'mount.germon@gmail.com',
-      // className: 'gcal-event' // an option!
     },
 
     eventClick: function(arg) {

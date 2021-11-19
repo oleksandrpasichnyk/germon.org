@@ -133,8 +133,17 @@
   }
 }
 
-/* Gallery section */
+/* Calendar section */
 
+@media (max-width: 603px) {
+  .fc .fc-toolbar  {
+    display: block;
+  }
+  
+  .fc-toolbar-chunk {
+    margin-top: 20px;
+  }
+}
 
 /* Contact section */
 

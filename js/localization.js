@@ -36,7 +36,7 @@ function switchLanguage(lang = "ua") {
   localStorage.setItem("localization", lang);
 
   const urlLang = getLanguageFromURL();
-  console.log("switch", urlLang, lang);
+
   if (lang !== urlLang && isLanguageValid(lang)) {
     let newPathname = "";
     if (!isLocalized) {

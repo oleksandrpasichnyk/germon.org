@@ -48,14 +48,29 @@
 }
 
 .accordion-button {
-	background-color:#ffffff;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	padding: 20px 20px;
 	outline: none;
 	border: none;
-	border-radius: 5px;
+	transition: 0.3s all ease-out;
+}
+
+.accordion-button.collapsed {
+	background-color:#ffffff;
+}
+
+.accordion-button:hover {
+	background-color: #333;
+}
+
+.accordion-button:hover .value-title{
+	color:#ffffff;
+}
+
+.accordion-button:hover .value-image{
+	filter: invert(1);
 }
 
 .accordion-collapse {
@@ -89,7 +104,6 @@
 }
 
 .value-image{
-	filter: invert(1);
 	width: 40%;
 	opacity: 0.85;
 }
