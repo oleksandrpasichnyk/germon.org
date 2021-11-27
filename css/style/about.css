@@ -1,7 +1,7 @@
 /* About Section */
 
 .about-content {
-  padding: 70px 60px;
+  padding: 50px 40px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -22,11 +22,13 @@
 }
 
 .goal-content {
-  margin: 8vh 1vw;
+  margin: 8vh 1vw 2vh;
 }
 
 .goal-text-intro {
-  font-size: 1.4em;
+  font-size: 1.8em;
+  /* margin: 0 auto; */
+  margin-bottom: 40px;
 }
 
 .goal-text-intro strong{
@@ -34,12 +36,24 @@
 }
 
 .goal-text-block {
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .goal-text {
   font-style: italic;
-  font-size: 1.4em;
+  font-size: 1.9em;
+  line-height: 1.6em;
+  max-width: 450px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.goal-text span {
+  color: #ffffff;
+  background-color: #fcac45;
+  font-weight: bold;
+  border-radius: 0.7em;
+  padding: 0px 10px 3px 10px;
 }
 
 ul.about-list{ margin: 30px 0 0 ;}
@@ -51,6 +65,10 @@ ul.about-list li{
 }
 ul.about-list li span{ 
 	margin-right: 10px;
+}
+
+.cermonies-text {
+  margin: 20px 70px 40px;
 }
 
 .cermonies-text h4{
